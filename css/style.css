@@ -1,0 +1,43 @@
+body{
+	height: 1200px;
+}
+.slider{
+	background: url(../images/top_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	height: 100vh;
+	}
+.slider-content{
+    color: #fff;
+    font-weight: 600;
+    padding:278px;
+    font-style: italic;
+    transition: all o.5s ease;
+}
+.btn-custom{
+		background: seagreen;
+	color: white;
+
+}
+.btn-custom:hover{
+	background: black;
+	color: white;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #40D5D5;
+    font-size: 25px;
+}
+.navbar-default .navbar-brand:hover{
+    color: #40D5D5;
+    font-size: 25px;
+}
+.navbar-default .navbar-nav{
+	color: #fff;
+	text-transform: uppercase;
+}
